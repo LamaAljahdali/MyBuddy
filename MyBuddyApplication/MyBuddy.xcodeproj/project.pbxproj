@@ -1,0 +1,488 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073114E00AF1A458D8C66E4F /* Pods_MyBuddy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B8CC8F3AA0E0B21FD534D76 /* Pods_MyBuddy.framework */; };
+		A905785D25E57C57005CE991 /* editProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A905785C25E57C57005CE991 /* editProfileViewController.swift */; };
+		A9405EA5261342F9008D6546 /* الجلوس عند شرب الماء.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A9405EA3261342F9008D6546 /* الجلوس عند شرب الماء.mp4 */; };
+		A9405EA6261342F9008D6546 /* ترتيب الغرفة.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = A9405EA4261342F9008D6546 /* ترتيب الغرفة.mp4 */; };
+		A947B26D25BF40A60095F997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947B26C25BF40A60095F997 /* AppDelegate.swift */; };
+		A947B26F25BF40A60095F997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947B26E25BF40A60095F997 /* SceneDelegate.swift */; };
+		A947B27125BF40A60095F997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947B27025BF40A60095F997 /* ViewController.swift */; };
+		A947B27425BF40A60095F997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A947B27225BF40A60095F997 /* Main.storyboard */; };
+		A947B27625BF40A90095F997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A947B27525BF40A90095F997 /* Assets.xcassets */; };
+		A947B27925BF40A90095F997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A947B27725BF40A90095F997 /* LaunchScreen.storyboard */; };
+		A947B28225BF52CF0095F997 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A947B28125BF52CF0095F997 /* RegisterViewController.swift */; };
+		A95BF80125C5B02200876126 /* profilesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BF80025C5B02200876126 /* profilesTableViewCell.swift */; };
+		A95BF80525C5BC6000876126 /* behaviorsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BF80425C5BC6000876126 /* behaviorsTableViewCell.swift */; };
+		A95BF80825C5BF6B00876126 /* VideosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A95BF80725C5BF6B00876126 /* VideosTableViewCell.swift */; };
+		A95BF80B25C5DB1900876126 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A95BF80A25C5DB1900876126 /* GoogleService-Info.plist */; };
+		A96F262425C019D800BD7A31 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F262325C019D800BD7A31 /* SignInViewController.swift */; };
+		A96F262725C01A4000BD7A31 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F262625C01A4000BD7A31 /* HomePageViewController.swift */; };
+		A96F262A25C01F6B00BD7A31 /* ChildProfilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F262925C01F6B00BD7A31 /* ChildProfilesViewController.swift */; };
+		A96F262D25C0257000BD7A31 /* ChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F262C25C0257000BD7A31 /* ChildViewController.swift */; };
+		A96F263425C0443000BD7A31 /* AddChildViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F263325C0443000BD7A31 /* AddChildViewController.swift */; };
+		A96F263725C0445F00BD7A31 /* VRVidViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F263625C0445F00BD7A31 /* VRVidViewController.swift */; };
+		A96F263A25C048F800BD7A31 /* RewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F263925C048F800BD7A31 /* RewardsViewController.swift */; };
+		A96F263D25C04BA800BD7A31 /* CreateListOfBehaviorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A96F263C25C04BA800BD7A31 /* CreateListOfBehaviorViewController.swift */; };
+		A970EFB225D9912F00F9BB03 /* MyRewardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970EFB125D9912F00F9BB03 /* MyRewardsViewController.swift */; };
+		A970EFB925D9C66900F9BB03 /* MyRewardsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A970EFB825D9C66900F9BB03 /* MyRewardsListTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0BE497504FA09C931D5F07E4 /* Pods-MyBuddy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBuddy.release.xcconfig"; path = "Target Support Files/Pods-MyBuddy/Pods-MyBuddy.release.xcconfig"; sourceTree = "<group>"; };
+		1B8CC8F3AA0E0B21FD534D76 /* Pods_MyBuddy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyBuddy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF94F96A0935EBF02952B84 /* Pods-MyBuddy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyBuddy.debug.xcconfig"; path = "Target Support Files/Pods-MyBuddy/Pods-MyBuddy.debug.xcconfig"; sourceTree = "<group>"; };
+		A905785C25E57C57005CE991 /* editProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editProfileViewController.swift; sourceTree = "<group>"; };
+		A9405EA3261342F9008D6546 /* الجلوس عند شرب الماء.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "الجلوس عند شرب الماء.mp4"; sourceTree = "<group>"; };
+		A9405EA4261342F9008D6546 /* ترتيب الغرفة.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "ترتيب الغرفة.mp4"; path = "../../Downloads/ترتيب الغرفة.mp4"; sourceTree = "<group>"; };
+		A947B26925BF40A60095F997 /* MyBuddy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyBuddy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A947B26C25BF40A60095F997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A947B26E25BF40A60095F997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A947B27025BF40A60095F997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A947B27325BF40A60095F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A947B27525BF40A90095F997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A947B27825BF40A90095F997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A947B27A25BF40A90095F997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A947B28125BF52CF0095F997 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		A95BF80025C5B02200876126 /* profilesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = profilesTableViewCell.swift; sourceTree = "<group>"; };
+		A95BF80425C5BC6000876126 /* behaviorsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = behaviorsTableViewCell.swift; sourceTree = "<group>"; };
+		A95BF80725C5BF6B00876126 /* VideosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideosTableViewCell.swift; sourceTree = "<group>"; };
+		A95BF80A25C5DB1900876126 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		A96F262325C019D800BD7A31 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A96F262625C01A4000BD7A31 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		A96F262925C01F6B00BD7A31 /* ChildProfilesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildProfilesViewController.swift; sourceTree = "<group>"; };
+		A96F262C25C0257000BD7A31 /* ChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewController.swift; sourceTree = "<group>"; };
+		A96F263325C0443000BD7A31 /* AddChildViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddChildViewController.swift; sourceTree = "<group>"; };
+		A96F263625C0445F00BD7A31 /* VRVidViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VRVidViewController.swift; sourceTree = "<group>"; };
+		A96F263925C048F800BD7A31 /* RewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RewardsViewController.swift; sourceTree = "<group>"; };
+		A96F263C25C04BA800BD7A31 /* CreateListOfBehaviorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateListOfBehaviorViewController.swift; sourceTree = "<group>"; };
+		A970EFB125D9912F00F9BB03 /* MyRewardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsViewController.swift; sourceTree = "<group>"; };
+		A970EFB825D9C66900F9BB03 /* MyRewardsListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyRewardsListTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A947B26625BF40A60095F997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073114E00AF1A458D8C66E4F /* Pods_MyBuddy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		430B883B508E8DACE1FCB2C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1B8CC8F3AA0E0B21FD534D76 /* Pods_MyBuddy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A947B26025BF40A60095F997 = {
+			isa = PBXGroup;
+			children = (
+				A9405EA3261342F9008D6546 /* الجلوس عند شرب الماء.mp4 */,
+				A9405EA4261342F9008D6546 /* ترتيب الغرفة.mp4 */,
+				A947B26B25BF40A60095F997 /* MyBuddy */,
+				A947B26A25BF40A60095F997 /* Products */,
+				F60336205C83FA3E36D3E773 /* Pods */,
+				430B883B508E8DACE1FCB2C8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A947B26A25BF40A60095F997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A947B26925BF40A60095F997 /* MyBuddy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A947B26B25BF40A60095F997 /* MyBuddy */ = {
+			isa = PBXGroup;
+			children = (
+				A95BF80A25C5DB1900876126 /* GoogleService-Info.plist */,
+				A947B26C25BF40A60095F997 /* AppDelegate.swift */,
+				A947B26E25BF40A60095F997 /* SceneDelegate.swift */,
+				A947B27025BF40A60095F997 /* ViewController.swift */,
+				A947B27225BF40A60095F997 /* Main.storyboard */,
+				A947B27525BF40A90095F997 /* Assets.xcassets */,
+				A947B27725BF40A90095F997 /* LaunchScreen.storyboard */,
+				A947B27A25BF40A90095F997 /* Info.plist */,
+				A947B28125BF52CF0095F997 /* RegisterViewController.swift */,
+				A96F262325C019D800BD7A31 /* SignInViewController.swift */,
+				A96F262625C01A4000BD7A31 /* HomePageViewController.swift */,
+				A96F262925C01F6B00BD7A31 /* ChildProfilesViewController.swift */,
+				A905785C25E57C57005CE991 /* editProfileViewController.swift */,
+				A95BF80025C5B02200876126 /* profilesTableViewCell.swift */,
+				A96F262C25C0257000BD7A31 /* ChildViewController.swift */,
+				A96F263325C0443000BD7A31 /* AddChildViewController.swift */,
+				A96F263625C0445F00BD7A31 /* VRVidViewController.swift */,
+				A95BF80425C5BC6000876126 /* behaviorsTableViewCell.swift */,
+				A96F263925C048F800BD7A31 /* RewardsViewController.swift */,
+				A970EFB125D9912F00F9BB03 /* MyRewardsViewController.swift */,
+				A970EFB825D9C66900F9BB03 /* MyRewardsListTableViewCell.swift */,
+				A96F263C25C04BA800BD7A31 /* CreateListOfBehaviorViewController.swift */,
+				A95BF80725C5BF6B00876126 /* VideosTableViewCell.swift */,
+			);
+			path = MyBuddy;
+			sourceTree = "<group>";
+		};
+		F60336205C83FA3E36D3E773 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CF94F96A0935EBF02952B84 /* Pods-MyBuddy.debug.xcconfig */,
+				0BE497504FA09C931D5F07E4 /* Pods-MyBuddy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A947B26825BF40A60095F997 /* MyBuddy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A947B27D25BF40A90095F997 /* Build configuration list for PBXNativeTarget "MyBuddy" */;
+			buildPhases = (
+				A4820CC485CE9629B5556B93 /* [CP] Check Pods Manifest.lock */,
+				A947B26525BF40A60095F997 /* Sources */,
+				A947B26625BF40A60095F997 /* Frameworks */,
+				A947B26725BF40A60095F997 /* Resources */,
+				397EBA8B33B02C9079C03739 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyBuddy;
+			productName = MyBuddy;
+			productReference = A947B26925BF40A60095F997 /* MyBuddy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A947B26125BF40A60095F997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					A947B26825BF40A60095F997 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = A947B26425BF40A60095F997 /* Build configuration list for PBXProject "MyBuddy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A947B26025BF40A60095F997;
+			productRefGroup = A947B26A25BF40A60095F997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A947B26825BF40A60095F997 /* MyBuddy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A947B26725BF40A60095F997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A947B27925BF40A90095F997 /* LaunchScreen.storyboard in Resources */,
+				A95BF80B25C5DB1900876126 /* GoogleService-Info.plist in Resources */,
+				A947B27625BF40A90095F997 /* Assets.xcassets in Resources */,
+				A9405EA5261342F9008D6546 /* الجلوس عند شرب الماء.mp4 in Resources */,
+				A9405EA6261342F9008D6546 /* ترتيب الغرفة.mp4 in Resources */,
+				A947B27425BF40A60095F997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		397EBA8B33B02C9079C03739 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBuddy/Pods-MyBuddy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyBuddy/Pods-MyBuddy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyBuddy/Pods-MyBuddy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4820CC485CE9629B5556B93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyBuddy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A947B26525BF40A60095F997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A95BF80825C5BF6B00876126 /* VideosTableViewCell.swift in Sources */,
+				A95BF80125C5B02200876126 /* profilesTableViewCell.swift in Sources */,
+				A947B27125BF40A60095F997 /* ViewController.swift in Sources */,
+				A95BF80525C5BC6000876126 /* behaviorsTableViewCell.swift in Sources */,
+				A96F263425C0443000BD7A31 /* AddChildViewController.swift in Sources */,
+				A947B26D25BF40A60095F997 /* AppDelegate.swift in Sources */,
+				A96F262725C01A4000BD7A31 /* HomePageViewController.swift in Sources */,
+				A947B26F25BF40A60095F997 /* SceneDelegate.swift in Sources */,
+				A96F262A25C01F6B00BD7A31 /* ChildProfilesViewController.swift in Sources */,
+				A96F263725C0445F00BD7A31 /* VRVidViewController.swift in Sources */,
+				A96F263D25C04BA800BD7A31 /* CreateListOfBehaviorViewController.swift in Sources */,
+				A970EFB225D9912F00F9BB03 /* MyRewardsViewController.swift in Sources */,
+				A96F262425C019D800BD7A31 /* SignInViewController.swift in Sources */,
+				A947B28225BF52CF0095F997 /* RegisterViewController.swift in Sources */,
+				A96F263A25C048F800BD7A31 /* RewardsViewController.swift in Sources */,
+				A905785D25E57C57005CE991 /* editProfileViewController.swift in Sources */,
+				A96F262D25C0257000BD7A31 /* ChildViewController.swift in Sources */,
+				A970EFB925D9C66900F9BB03 /* MyRewardsListTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A947B27225BF40A60095F997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A947B27325BF40A60095F997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A947B27725BF40A90095F997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A947B27825BF40A90095F997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A947B27B25BF40A90095F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A947B27C25BF40A90095F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A947B27E25BF40A90095F997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CF94F96A0935EBF02952B84 /* Pods-MyBuddy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorProject.MyBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A947B27F25BF40A90095F997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE497504FA09C931D5F07E4 /* Pods-MyBuddy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MyBuddy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.SeniorProject.MyBuddy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A947B26425BF40A60095F997 /* Build configuration list for PBXProject "MyBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947B27B25BF40A90095F997 /* Debug */,
+				A947B27C25BF40A90095F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A947B27D25BF40A90095F997 /* Build configuration list for PBXNativeTarget "MyBuddy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947B27E25BF40A90095F997 /* Debug */,
+				A947B27F25BF40A90095F997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A947B26125BF40A60095F997 /* Project object */;
+}

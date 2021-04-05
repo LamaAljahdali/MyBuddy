@@ -1,0 +1,6 @@
+framework module Pods_MyBuddy {
+  umbrella header "Pods-MyBuddy-umbrella.h"
+
+  export *
+  module * { export * }
+}
